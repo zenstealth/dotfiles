@@ -1,4 +1,4 @@
-################################################################################################################################
+#############################################################################
 #BASH CONFIGURATIONS
 
 # Enables fancy colors
@@ -8,7 +8,7 @@ export CLICOLOR=true
 alias ..="cd .." #up one level
 alias ...="cd ../.." #up two levels
 
-################################################################################################################################
+#############################################################################
 #SHORTCUTS
 
 # Main Directory Shortcuts
@@ -44,7 +44,7 @@ alias dot-all="dot-profile | dot-git"
 alias dot-profile="cp ~/.profile ~/Dropbox/Code/dotfiles/.profile"
 alias dot-git="cp ~/.gitignore_global ~/Dropbox/Code/dotfiles/.gitignore_global"
 
-################################################################################################################################
+#############################################################################
 #GIT
 
 # Git Shortcuts
@@ -61,7 +61,7 @@ alias glog1="git log --oneline"
 # Git External Sites
 alias github="open https://github.com"
 
-################################################################################################################################
+#############################################################################
 #PREFERENCES
 
 # Easy Preference Editing
@@ -74,7 +74,7 @@ alias profile-kod="kod ~/.profile" #Opens in Kod
 alias mamp-open="sudo open -e /Applications/MAMP/conf/apache/httpd.conf"
 alias mamp-kod="sudo kod /Applications/MAMP/conf/apache/httpd.conf"
 
-################################################################################################################################
+#############################################################################
 #SSH
 
 # SSH Config Edit
@@ -92,7 +92,7 @@ alias tn='ssh tunnel -p 22 -N -D localhost:8080'
 alias tn443='ssh tunnel -p 443 -N -D localhost:8080'
 alias tn80='ssh tunnel -p 80 -N -D localhost:8080'
 
-################################################################################################################################
+#############################################################################
 #UTILITIES
 
 # Removal Confirmation
@@ -110,7 +110,7 @@ alias hrep="history | grep" #Finds used commands in History
 alias ip="curl icanhazip.com" #Gets Public IP from icanhazip.com
 alias todo="open /Users/zenstealth/Dropbox/Documents/Notational\ Velocity/todo1.txt" #Edits my Todo list in Notational Velocity
 
-################################################################################################################################
+#############################################################################
 #THE OTHER OTHER STUFF
 
 # MacPorts Installer addition on 2011-01-19_at_23:32:46: adding an appropriate PATH variable for use with MacPorts.
