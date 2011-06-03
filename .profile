@@ -49,7 +49,7 @@ alias dot-git="cp ~/.gitignore_global ~/Dropbox/Code/dotfiles/.gitignore_global"
 
 # Git Shortcuts
 alias ginit="git init"
-alias gadd.="git add ."
+alias gadd="git add ."
 alias gstat="git status"
 alias gcomm="git commit -m"
 alias gpush="git push"
