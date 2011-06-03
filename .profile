@@ -38,11 +38,14 @@ alias rhs="cd ~/Dropbox/Code/Projects/Active/rhs"
 alias dev1="cd ~/Dropbox/Code/Projects/Active/dev1.zenstealth.com"
 alias dev2="cd ~/Dropbox/Code/Projects/Active/dev2.zenstealth.com"
 
-#dotfiles
+# Dotfiles
 alias dotfiles="cd ~/Dropbox/Code/dotfiles"
 alias dot-all="dot-profile | dot-git"
 alias dot-profile="cp ~/.profile ~/Dropbox/Code/dotfiles/.profile"
 alias dot-git="cp ~/.gitignore_global ~/Dropbox/Code/dotfiles/.gitignore_global"
+
+# Twitter
+alias tweet="twitter tweet"
 
 #############################################################################
 #GIT
