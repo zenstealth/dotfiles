@@ -40,9 +40,10 @@ alias dev2="cd ~/Dropbox/Code/Projects/Active/dev2.zenstealth.com"
 
 # Dotfiles
 alias dotfiles="cd ~/Dropbox/Code/dotfiles"
-alias dot-all="dot-profile | dot-git"
+alias dot-all="dot-profile | dot-git | dot-motd"
 alias dot-profile="cp ~/.profile ~/Dropbox/Code/dotfiles/.profile"
 alias dot-git="cp ~/.gitignore_global ~/Dropbox/Code/dotfiles/.gitignore_global"
+alias dot-motd="cp /etc/motd ~/Dropbox/Code/dotfiles/motd"
 
 # Twitter
 alias tweet="twitter tweet"
