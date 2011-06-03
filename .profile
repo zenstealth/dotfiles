@@ -47,6 +47,8 @@ alias dot-motd="cp /etc/motd ~/Dropbox/Code/dotfiles/motd"
 
 # Twitter
 alias tweet="twitter tweet"
+alias t="twitter"
+alias tstat="twitter status"
 
 #############################################################################
 #GIT
@@ -65,7 +67,8 @@ alias glog="git log"
 alias glog1="git log --oneline"
 
 # Git External Sites
-alias github="open https://github.com"
+alias github="open https://github.com" #Opens GitHub dashboard
+alias github-zen="open https://github.com/zenstealth" #Opens my GitHub profile
 
 #############################################################################
 #PREFERENCES
