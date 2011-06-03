@@ -60,6 +60,7 @@ alias gpush="git push"
 alias gpull="git pull"
 alias gbranch="git branch"
 alias gcheck="git checkout"
+alias gclone="git clone"
 alias glog="git log"
 alias glog1="git log --oneline"
 
