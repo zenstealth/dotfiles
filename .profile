@@ -99,7 +99,7 @@ alias tn443='ssh tunnel -p 443 -N -D localhost:8080'
 alias tn80='ssh tunnel -p 80 -N -D localhost:8080'
 
 #############################################################################
-#UTILITIES
+#UTILITIES AND FUN STUFF
 
 # Removal Confirmation
 alias rm="rm -i" #Asks for confirmation when using rm
@@ -115,6 +115,9 @@ alias hrep="history | grep" #Finds used commands in History
 
 alias ip="curl icanhazip.com" #Gets Public IP from icanhazip.com
 alias todo="open /Users/zenstealth/Dropbox/Documents/Notational\ Velocity/todo1.txt" #Edits my Todo list in Notational Velocity
+
+# Fun Stuff
+alias moo="fortune | cowsay -n"
 
 #############################################################################
 #THE OTHER OTHER STUFF
