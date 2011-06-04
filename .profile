@@ -35,7 +35,7 @@ alias zen-scp-404="scp 404/index.html nfsn-zen:/home/public/404/"
 alias zen-scp-css="scp static/stylesheet.css nfsn-zen:/home/public/static/"
 
 # BLOG.ZENSTEALTH.COM
-alias zen-github="cd ~/Dropbox/Code/Projects/Active/zenstealth.github.com"
+alias zen-blog="cd ~/Dropbox/Code/Projects/Active/zenstealth.github.com"
 
 # Other Projects
 alias project="cat project.name"
