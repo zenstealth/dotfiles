@@ -1,6 +1,9 @@
 #############################################################################
 #BASH CONFIGURATIONS
 
+# Exports
+export PS1="INPUT COMMAND $"
+
 # Enables fancy colors
 export CLICOLOR=true
 
