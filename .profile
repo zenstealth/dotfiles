@@ -60,17 +60,19 @@ alias tstat="twitter status"
 #GIT
 
 # Git Shortcuts
-alias ginit="git init"
-alias gadd="git add ."
-alias gstat="git status"
-alias gcomm="git commit -m"
-alias gpush="git push"
-alias gpull="git pull"
-alias gbranch="git branch"
-alias gcheck="git checkout"
-alias gclone="git clone"
-alias glog="git log"
-alias glog1="git log --oneline"
+alias ga='git add .'
+alias gp='git push'
+alias gl='git log'
+alias gs='git status'
+alias gd='git diff'
+alias gm='git commit -m'
+alias gma='git commit -am'
+alias gb='git branch'
+alias gc='git checkout'
+alias gra='git remote add'
+alias grr='git remote rm'
+alias gpu='git pull'
+alias gcl='git clone'
 
 # Git External Sites
 alias github="open https://github.com" #Opens GitHub dashboard
