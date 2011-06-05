@@ -15,6 +15,7 @@ alias ...="cd ../.." #up two levels
 #SHORTCUTS
 
 # Main Directory Shortcuts
+alias ~="cd ~" #Goes to user directory
 alias home="cd ~" #Goes to user directory
 alias desk="cd ~/Desktop" #Goes to the Desktop
 alias down="cd ~/Downloads" #Goes to the Downloads folder
