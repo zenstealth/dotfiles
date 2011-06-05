@@ -46,7 +46,7 @@ alias dev2="cd ~/Dropbox/Code/Projects/Active/dev2.zenstealth.com"
 
 # Dotfiles
 alias dotfiles="cd ~/Dropbox/Code/dotfiles"
-alias dot-all="dot-profile | dot-git | dot-motd"
+alias dotall="dot-profile | dot-git | dot-motd"
 alias dot-profile="cp ~/.profile ~/Dropbox/Code/dotfiles/.profile"
 alias dot-git="cp ~/.gitignore_global ~/Dropbox/Code/dotfiles/.gitignore_global"
 alias dot-motd="cp /etc/motd ~/Dropbox/Code/dotfiles/motd"
@@ -59,6 +59,13 @@ alias tstat="twitter status"
 # Application Shortcuts
 alias kod.="kod ." #Opens Kod in the current directory
 alias textedit="open -e" #Opens file in TextEdit
+
+# Internet Shortcuts
+alias gmail="open https://mail.google.com/"
+alias greader="open https://www.google.com/reader/view/"
+alias reddit="open http://www.reddit.com"
+alias facebook="open https://www.facebook.com"
+alias tumblr="open http://www.tumblr.com/"
 
 #############################################################################
 #GIT
