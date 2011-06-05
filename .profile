@@ -67,6 +67,8 @@ alias greader="open https://www.google.com/reader/view/"
 alias reddit="open http://www.reddit.com"
 alias facebook="open https://www.facebook.com"
 alias tumblr="open http://www.tumblr.com/"
+alias tnest="open http://tweets.zenstealth.com"
+alias tnestu="open http://tweets.zenstealth.com/maintenance/loadtweets.php"
 
 #############################################################################
 #GIT
