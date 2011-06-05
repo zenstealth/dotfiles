@@ -140,7 +140,10 @@ alias hc="history -c" #Clears history
 alias hrep="history | grep" #Finds used commands in History
 
 alias ip="curl icanhazip.com" #Gets Public IP from icanhazip.com
-alias todo="open /Users/zenstealth/Dropbox/Documents/Notational\ Velocity/todo1.txt" #Edits my Todo list in Notational Velocity
+
+alias todo1="open -e /Users/zenstealth/Dropbox/Documents/Notational\ Velocity/todo1.txt"
+alias todo2="open -e /Users/zenstealth/Dropbox/Documents/Notational\ Velocity/todo2.txt"
+alias todo3="open -e /Users/zenstealth/Dropbox/Documents/Notational\ Velocity/todo3.txt"
 
 # Fun Stuff
 alias moo="fortune | cowsay -n"
