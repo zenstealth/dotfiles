@@ -2,7 +2,7 @@
 #BASH CONFIGURATIONS
 
 # Exports
-export PS1="$ "
+export PS1="\[\033[0;31m\]\\W \[\033[0;32m\] $ " 
 
 # Enables fancy colors
 export CLICOLOR=true
