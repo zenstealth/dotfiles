@@ -2,7 +2,7 @@
 #BASH CONFIGURATIONS
 
 # Exports
-export PS1="\[\033[0;31m\]\\W \[\033[0;32m\] $ " 
+export PS1="\[\033[0;32m\]DIRECTORY:\e[0m\] \[\033[4;31m\]\\W\[\e[0m\] \[\033[0;32m\]$ \[\e[0m\]" 
 
 # Enables fancy colors
 export CLICOLOR=true
