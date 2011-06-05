@@ -56,6 +56,10 @@ alias tweet="twitter tweet"
 alias t="twitter"
 alias tstat="twitter status"
 
+# Application Shortcuts
+alias kod.="kod ." #Opens Kod in the current directory
+alias textedit="open -e" #Opens file in TextEdit
+
 #############################################################################
 #GIT
 
@@ -115,8 +119,6 @@ alias tn80='ssh tunnel -p 80 -N -D localhost:8080'
 # Removal Confirmation
 alias rm="rm -i" #Asks for confirmation when using rm
 
-# Kod
-alias kod.="kod ." #Opens Kod in the current directory
 
 # Useful Utilities
 alias clearcache="dscacheutil -flushcache"
