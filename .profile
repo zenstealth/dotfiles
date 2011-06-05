@@ -115,6 +115,9 @@ alias tn80='ssh tunnel -p 80 -N -D localhost:8080'
 # Removal Confirmation
 alias rm="rm -i" #Asks for confirmation when using rm
 
+# Kod
+alias kod.="kod ." #Opens Kod in the current directory
+
 # Useful Utilities
 alias clearcache="dscacheutil -flushcache"
 alias bootup="cat /etc/motd"
