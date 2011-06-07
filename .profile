@@ -59,8 +59,9 @@ alias t="twitter"
 alias tstat="twitter status"
 
 # Application Shortcuts
-alias kod.="kod ." #Opens Kod in the current directory
+alias kod="kod ." #Opens Kod in the current directory
 alias textedit="open -e" #Opens file in TextEdit
+alias activity="open /Applications/Utilities/Activity\ Monitor.app" #Opens Activity Monitor
 
 # Internet Shortcuts
 alias gmail="open https://mail.google.com/"
