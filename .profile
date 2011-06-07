@@ -149,7 +149,7 @@ alias todo3="open -e /Users/zenstealth/Dropbox/Documents/Notational\ Velocity/to
 
 # TODO.txt
 PATH=$PATH:"/Users/zenstealth/Dropbox/Code/Scripts/todo"
-alias t='todo.sh -d ~/.todo.cfg'
+alias todo='todo.sh -d ~/.todo.cfg'
 
 # Fun Stuff
 alias moo="fortune | cowsay -n"
