@@ -141,7 +141,7 @@ alias hc="history -c" #Clears history
 alias hrep="history | grep" #Finds used commands in History
 
 alias ip="curl icanhazip.com" #Gets Public IP from icanhazip.com
-alias http="python -m SimpleHTTPServer" #Starts a simple HTTP server in current directory
+alias http="python -m SimpleHTTPServer" #Starts a simple HTTP server in current directory at http://localhost:8000/
 
 # GeekTool
 alias todo1="open -e /Users/zenstealth/Dropbox/Documents/Notational\ Velocity/todo1.txt"
