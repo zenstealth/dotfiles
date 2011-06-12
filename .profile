@@ -3,7 +3,8 @@
 
 # Exports
 # Old fancy one: export PS1="\[\033[4;31m\]DIRECTORY: \[\033[4;31m\]\\w\[\e[0m\] \n \[\033[0;32m\]$ \[\e[0m\]" 
-export PS1="\[\033[0;32m\]$ \[\e[0m\]" 
+# Simple One: export PS1="\[\033[0;32m\]$ \[\e[0m\]" 
+PS1="\[\033[0;32m\]INPUT COMMAND $ \[\e[0m\]"
 
 # Enables fancy colors
 export CLICOLOR=true
