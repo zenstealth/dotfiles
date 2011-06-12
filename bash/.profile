@@ -55,9 +55,9 @@ alias dev2="cd ~/Dropbox/Code/Projects/Active/dev2.zenstealth.com"
 # Dotfiles
 alias dotfiles="cd ~/Dropbox/Code/dotfiles"
 alias dotall="dot-profile | dot-git | dot-motd | dot-vim"
-alias dot-profile="cp ~/.profile ~/Dropbox/Code/dotfiles/.profile"
-alias dot-git="cp ~/.gitignore_global ~/Dropbox/Code/dotfiles/.gitignore_global"
-alias dot-motd="cp /etc/motd ~/Dropbox/Code/dotfiles/motd"
+alias dot-profile="cp ~/.profile ~/Dropbox/Code/dotfiles/bash/.profile"
+alias dot-git="cp ~/.gitignore_global ~/Dropbox/Code/dotfiles/git/.gitignore_global"
+alias dot-motd="cp /etc/motd ~/Dropbox/Code/dotfiles/bash/motd"
 alias dot-vim="cp ~/.vimrc  ~/Dropbox/Code/dotfiles/vim/.vimrc"
 
 # Twitter
