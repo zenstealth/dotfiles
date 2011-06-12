@@ -7,6 +7,11 @@ export PS1="\[\033[0;32m\]$ \[\e[0m\]"
 
 # Enables fancy colors
 export CLICOLOR=true
+if [ -e /usr/share/terminfo/x/xterm-256color ]; then
+        export TERM='xterm-256color'
+else
+        export TERM='xterm-color'
+fi
 
 # Directory Movement
 alias ..="cd .." #up one level
@@ -48,10 +53,11 @@ alias dev2="cd ~/Dropbox/Code/Projects/Active/dev2.zenstealth.com"
 
 # Dotfiles
 alias dotfiles="cd ~/Dropbox/Code/dotfiles"
-alias dotall="dot-profile | dot-git | dot-motd"
+alias dotall="dot-profile | dot-git | dot-motd | dot-vim"
 alias dot-profile="cp ~/.profile ~/Dropbox/Code/dotfiles/.profile"
 alias dot-git="cp ~/.gitignore_global ~/Dropbox/Code/dotfiles/.gitignore_global"
 alias dot-motd="cp /etc/motd ~/Dropbox/Code/dotfiles/motd"
+alias dot-vim="cp ~/.vimrc  ~/Dropbox/Code/dotfiles/vim/.vimrc"
 
 # Twitter
 alias tweet="twitter tweet"
