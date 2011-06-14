@@ -38,9 +38,7 @@ alias active="cd ~/Dropbox/Code/Projects/Active"
 
 # ZENSTEALTH.COM
 alias zen="cd ~/Dropbox/Code/Projects/Active/zenstealth.com"
-alias zen-scp-main="scp index.html about.html music.html reading.html  nfsn-zen:/home/public/"
-alias zen-scp-404="scp 404/index.html nfsn-zen:/home/public/404/"
-alias zen-scp-css="scp static/stylesheet.css nfsn-zen:/home/public/static/"
+alias zen-deploy="ssh nfsn-zen /home/private/git/zenstealth.com.git/hooks/post-receive"
 
 # BLOG.ZENSTEALTH.COM
 alias zen-blog="cd ~/Dropbox/Code/Projects/Active/zenstealth.github.com"
