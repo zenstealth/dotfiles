@@ -78,7 +78,7 @@ alias tnestu="open http://tweets.zenstealth.com/maintenance/loadtweets.php"
 #GIT
 
 # Git Shortcuts
-alias ga='git add .'
+alias ga='git add'
 alias gp='git push'
 alias gl='git log'
 alias gs='git status'
