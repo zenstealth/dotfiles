@@ -38,6 +38,7 @@ alias active="cd ~/Dropbox/Code/Projects/Active"
 
 # ZENSTEALTH.COM
 alias zen="cd ~/Dropbox/Code/Projects/Active/zenstealth.com"
+alias zen-tmp="ssh nfsn-zen /home/private/git/zenstealth.com.git/hooks/post-receive"
 alias zen-deploy="ssh nfsn-zen /home/private/git/zenstealth.com.git/hooks/post-receive"
 
 # Other Projects
