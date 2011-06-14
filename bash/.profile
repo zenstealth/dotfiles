@@ -58,7 +58,7 @@ alias dotall="dot-profile | dot-git | dot-motd | dot-vim"
 alias dot-profile="cp ~/.profile ~/Dropbox/Code/dotfiles/bash/.profile"
 alias dot-git="cp ~/.gitignore_global ~/Dropbox/Code/dotfiles/git/.gitignore_global"
 alias dot-motd="cp /etc/motd ~/Dropbox/Code/dotfiles/bash/motd"
-alias dot-vim="cp ~/.vimrc  ~/Dropbox/Code/dotfiles/vim/.vimrc"
+alias dot-vim="cp ~/.vimrc  ~/Dropbox/Code/dotfiles/vim/.vimrc && cp -r ~/.vim/* ~/Dropbox/Code/dotfiles/vim/.vim/"
 
 # Twitter
 alias tweet="twitter tweet"
@@ -108,7 +108,8 @@ alias github-zen="open https://github.com/zenstealth" #Opens my GitHub profile
 alias profile-open="open ~/.profile" #Opens default Text Editor
 alias profile-textedit="open -e ~/.profile" #Opens in TextEdit
 alias profile="vim ~/.profile" #Opens in Vim
-alias profile="nano ~/.profile" #Edits Aliases in Nano
+alias profile-mvim="mvim ~/.profile" #Opens in MacVim
+alias profile="nano ~/.profile" #Opens in Nano
 alias profile-kod="kod ~/.profile" #Opens in Kod
 
 alias mamp-open="sudo open -e /Applications/MAMP/conf/apache/httpd.conf"
@@ -141,7 +142,7 @@ alias rm="rm -i" #Asks for confirmation when using rm
 # Useful Utilities
 alias clearcache="dscacheutil -flushcache"
 alias bootup="cat /etc/motd"
-alias dir-copy="pwd | pbcopy"
+alias pwd-copy="pwd | pbcopy"
 
 alias h="history" #History Shortcut
 alias hc="history -c" #Clears history
