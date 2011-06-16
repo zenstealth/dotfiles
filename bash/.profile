@@ -36,10 +36,23 @@ alias code="cd ~/Dropbox/Code"
 alias projects="cd ~/Dropbox/Code/Projects"
 alias active="cd ~/Dropbox/Code/Projects/Active"
 
+# Internet Shortcuts
+alias gmail="open https://mail.google.com/"
+alias greader="open https://www.google.com/reader/view/"
+alias reddit="open http://www.reddit.com"
+alias facebook="open https://www.facebook.com"
+alias tumblr="open http://www.tumblr.com/"
+alias tnest="open http://tweets.zenstealth.com"
+alias tnestu="open http://tweets.zenstealth.com/maintenance/loadtweets.php"
+
+#############################################################################
+#PROJECTS
+
 # ZENSTEALTH.COM
 alias zen="cd ~/Dropbox/Code/Projects/Active/zenstealth.com"
-alias zen-tmp="ssh nfsn-zen /home/private/git/zenstealth.com.git/hooks/post-receive"
-alias zen-deploy="ssh nfsn-zen /home/private/git/zenstealth.com.git/hooks/post-receive"
+alias zen-dev-start="jekyll --server -auto && open http://localhost:4000/"
+alias zen-dev-open="open http://localhost:4000/"
+alias zen-deploy="jekyll --no-auto | rsync -avz --delete _site/ nfsn-zen:/home/public"
 
 # Other Projects
 alias project="cat project.name"
@@ -56,6 +69,9 @@ alias dot-git="cp ~/.gitignore_global ~/Dropbox/Code/dotfiles/git/.gitignore_glo
 alias dot-motd="cp /etc/motd ~/Dropbox/Code/dotfiles/bash/motd"
 alias dot-vim="cp ~/.vimrc  ~/Dropbox/Code/dotfiles/vim/.vimrc && cp -r ~/.vim/* ~/Dropbox/Code/dotfiles/vim/.vim/"
 
+#############################################################################
+#APPS
+
 # Twitter
 alias tweet="twitter tweet"
 alias t="twitter"
@@ -65,15 +81,6 @@ alias tstat="twitter status"
 alias kod.="kod ." #Opens Kod in the current directory
 alias textedit="open -e" #Opens file in TextEdit
 alias activity="open /Applications/Utilities/Activity\ Monitor.app" #Opens Activity Monitor
-
-# Internet Shortcuts
-alias gmail="open https://mail.google.com/"
-alias greader="open https://www.google.com/reader/view/"
-alias reddit="open http://www.reddit.com"
-alias facebook="open https://www.facebook.com"
-alias tumblr="open http://www.tumblr.com/"
-alias tnest="open http://tweets.zenstealth.com"
-alias tnestu="open http://tweets.zenstealth.com/maintenance/loadtweets.php"
 
 #############################################################################
 #GIT
