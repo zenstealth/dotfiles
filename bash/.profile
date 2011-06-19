@@ -75,13 +75,11 @@ alias dot-vim="cp ~/.vimrc  ~/Dropbox/Code/dotfiles/vim/.vimrc && cp -r ~/.vim/*
 
 # Twitter
 alias tweet="twitter tweet"
-alias t="twitter"
 alias tstat="twitter status"
 
 # Application Shortcuts
-alias kod.="kod ." #Opens Kod in the current directory
 alias textedit="open -e" #Opens file in TextEdit
-alias activity="open /Applications/Utilities/Activity\ Monitor.app" #Opens Activity Monitor
+alias active="open /Applications/Utilities/Activity\ Monitor.app" #Opens Activity Monitor
 
 #############################################################################
 #GIT
@@ -131,6 +129,7 @@ alias sshconfig-kod="kod ~/.ssh/config" #Edits SSh Favorites in Kod
 alias ssh-zen="ssh nfsn-zen" #SSH into NFSN Main
 alias ssh-tweetnest="ssh nfsn-tweets" #SSH into Tweetnest
 alias ssh-dev="ssh dev" #SSH into Devio.us
+alias ssh-silence="ssh silence" #SSH into Silence is Defeat
 
 # SSH Tunnels
 alias tn='ssh tunnel -p 22 -N -D localhost:8080'
@@ -146,11 +145,10 @@ alias rm="rm -i" #Asks for confirmation when using rm
 # Useful Utilities
 alias clearcache="dscacheutil -flushcache"
 alias bootup="cat /etc/motd"
-alias pwd-copy="pwd | pbcopy"
+alias pcopy="pwd | pbcopy"
 
 alias h="history" #History Shortcut
 alias hc="history -c" #Clears history
-alias hrep="history | grep" #Finds used commands in History
 
 alias ip="curl icanhazip.com" #Gets Public IP from icanhazip.com
 alias http="python -m SimpleHTTPServer" #Starts a simple HTTP server in current directory at http://localhost:8000/
