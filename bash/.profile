@@ -73,7 +73,7 @@ alias tweet="twitter tweet"
 alias tstat="twitter status"
 
 # Application Shortcuts
-alias tedit="open -e" #Opens file in TextEdit
+alias te="open -e" #Opens file in TextEdit
 alias active="open /Applications/Utilities/Activity\ Monitor.app" #Opens Activity Monitor
 
 #############################################################################
