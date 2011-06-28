@@ -49,17 +49,13 @@ alias tnestu="open http://tweets.zenstealth.com/maintenance/loadtweets.php"
 
 # ZENSTEALTH.COM
 alias zen="cd ~/Dropbox/Code/Projects/Active/zenstealth.com"
-alias zen-gen="jekyll --no-auto"
-alias zen-start="jekyll --server --auto"
-alias zen-open="open http://localhost:4000/"
-alias zen-deploy="jekyll --no-auto && rsync -avz --delete _site/ nfsn-zen:/home/public"
+alias jgen="jekyll --no-auto"
+alias jstart="jekyll --server --auto"
+alias jopen="open http://localhost:4000/"
+alias jdeploy="jekyll --no-auto && rsync -avz --delete _site/ nfsn-zen:/home/public"
 
 # Other Projects
-alias project="cat project.name"
-alias tumblr="cd ~/Dropbox/Code/Projects/Active/tumblr.zenstealth.com"
 alias rhs="cd ~/Dropbox/Code/Projects/Active/rhs"
-alias dev1="cd ~/Dropbox/Code/Projects/Active/dev1.zenstealth.com"
-alias dev2="cd ~/Dropbox/Code/Projects/Active/dev2.zenstealth.com"
 
 # Dotfiles
 alias dotfiles="cd ~/Dropbox/Code/dotfiles"
