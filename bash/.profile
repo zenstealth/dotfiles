@@ -27,7 +27,6 @@ alias home="cd ~" #Goes to user directory
 alias desk="cd ~/Desktop" #Goes to the Desktop
 alias down="cd ~/Downloads" #Goes to the Downloads folder
 alias drop="cd ~/Dropbox" #Goes to the Dropbox folder
-alias code="cd ~/Dropbox/Code" #Goes to the code folder in Dropbox
 alias ssh-cd="cd ~/.ssh" #Goes to the SSH folder
 alias root="cd /" #Goes down to root directory
 
@@ -152,11 +151,6 @@ alias hc="history -c" #Clears history
 
 alias ip="curl icanhazip.com" #Gets Public IP from icanhazip.com
 alias http="python -m SimpleHTTPServer" #Starts a simple HTTP server in current directory at http://localhost:8000/
-
-# GeekTool
-alias todo1="open -e /Users/zenstealth/Dropbox/Documents/Notational\ Velocity/todo1.txt"
-alias todo2="open -e /Users/zenstealth/Dropbox/Documents/Notational\ Velocity/todo2.txt"
-alias todo3="open -e /Users/zenstealth/Dropbox/Documents/Notational\ Velocity/todo3.txt"
 
 # TODO.txt
 PATH=$PATH:"/Users/zenstealth/Dropbox/Code/Scripts/todo"
