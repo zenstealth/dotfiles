@@ -22,18 +22,16 @@ alias ...="cd ../.." #up two levels
 #SHORTCUTS
 
 # Main Directory Shortcuts
-alias ~="cd ~" #Goes to user directory
-alias home="cd ~" #Goes to user directory
+alias ~="cd ~" #Goes to home directory
+alias home="cd ~" #Goes to home directory
 alias desk="cd ~/Desktop" #Goes to the Desktop
 alias down="cd ~/Downloads" #Goes to the Downloads folder
 alias drop="cd ~/Dropbox" #Goes to the Dropbox folder
-alias ssh-cd="cd ~/.ssh" #Goes to the SSH folder
-alias root="cd /" #Goes down to root directory
+alias .ssh="cd ~/.ssh" #Goes to the SSH folder
 
 # Code Directory Shortcuts
 alias code="cd ~/Dropbox/Code" 
-alias projects="cd ~/Dropbox/Code/Projects"
-alias active="cd ~/Dropbox/Code/Projects/Active"
+alias codep="cd ~/Dropbox/Code/Projects"
 
 # Internet Shortcuts
 alias gmail="open https://mail.google.com/"
@@ -48,14 +46,14 @@ alias tnestu="open http://tweets.zenstealth.com/maintenance/loadtweets.php"
 #PROJECTS
 
 # ZENSTEALTH.COM
-alias zen="cd ~/Dropbox/Code/Projects/Active/zenstealth.com"
+alias zen="cd ~/Dropbox/Code/Projects/zenstealth.com"
 alias jgen="jekyll --no-auto"
 alias jstart="jekyll --server --auto"
 alias jopen="open http://localhost:4000/"
 alias jdeploy="jekyll --no-auto && rsync -avz --delete _site/ nfsn-zen:/home/public"
 
 # Other Projects
-alias rhs="cd ~/Dropbox/Code/Projects/Active/rhs"
+alias rhs="cd ~/Dropbox/Code/Projects/rhs"
 
 # Dotfiles
 alias dotfiles="cd ~/Dropbox/Code/dotfiles"
@@ -74,7 +72,8 @@ alias tstat="twitter status"
 
 # Application Shortcuts
 alias te="open -e" #Opens file in TextEdit
-alias active="open /Applications/Utilities/Activity\ Monitor.app" #Opens Activity Monitor
+alias tfinder="open /Applications/TotalFinder.app" #Opens TotalFinder if Finder is killed
+alias monitor="open /Applications/Utilities/Activity\ Monitor.app" #Opens Activity Monitor
 
 #############################################################################
 #GIT
@@ -140,7 +139,7 @@ alias rm="rm -i" #Asks for confirmation when using rm
 # Useful Utilities
 alias clearcache="dscacheutil -flushcache"
 alias bootup="cat /etc/motd"
-alias pcopy="pwd | pbcopy"
+alias pwdcopy="pwd | pbcopy"
 
 alias h="history" #History Shortcut
 alias hc="history -c" #Clears history
