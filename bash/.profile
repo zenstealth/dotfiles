@@ -155,6 +155,12 @@ alias todo='todo.sh -d ~/.todo.cfg'
 alias moo="fortune | cowsay -n"
 
 #############################################################################
+#MAC ONLY STUFF
+
+# Add spacer to the Dock
+alias dock+="defaults write com.apple.dock persistent-apps -array-add '{ "tile-type" = "spacer-tile"; }' && killall Dock"
+
+#############################################################################
 #THE OTHER OTHER STUFF
 
 # MacPorts Installer addition on 2011-01-19_at_23:32:46: adding an appropriate PATH variable for use with MacPorts.
