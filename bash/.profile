@@ -74,6 +74,7 @@ alias tstat="twitter status"
 alias te="open -e" #Opens file in TextEdit
 alias tfinder="open /Applications/TotalFinder.app" #Opens TotalFinder if Finder is killed
 alias monitor="open /Applications/Utilities/Activity\ Monitor.app" #Opens Activity Monitor
+alias gedit="open -a /Applications/gedit.app" #Opens in gedit
 
 #############################################################################
 #GIT
