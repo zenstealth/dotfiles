@@ -4,7 +4,8 @@
 
 "Eyecandy
 syntax on
-colorscheme ekvoli
+set background=dark
+colorscheme solarized
 set guifont=Droid_Sans_Mono:h12 "Set the font and size
 set linespace=3 "Larger linespacing for increased readability
 set number "Numbers on the left hand side
@@ -49,6 +50,5 @@ endif
 abbrev desk :cd ~/Desktop<cr>:e.<cr>
 abbrev down :cd ~/Downloads<cr>:e.<cr>
 
-abbrev ff :! open -a Aurora.app %:p<cr>
 abbrev vimrc :tabedit $MYVIMRC<cr>
 abbrev nt :NERDTreeToggle
