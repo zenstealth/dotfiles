@@ -161,6 +161,9 @@ alias moo="fortune | cowsay -n"
 # Add spacer to the Dock
 alias dock+="defaults write com.apple.dock persistent-apps -array-add '{ "tile-type" = "spacer-tile"; }' && killall Dock"
 
+# Ejects any discs in the Superdrive
+alias eject="drutil tray eject 0"
+
 #############################################################################
 #THE OTHER OTHER STUFF
 
