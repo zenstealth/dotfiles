@@ -177,3 +177,8 @@ PATH="/Library/Frameworks/Python.framework/Versions/Current/bin:${PATH}"
 export PATH
 
 test -r /sw/bin/init.sh && . /sw/bin/init.sh
+
+# Setting PATH for Python 3.2
+# The orginal version is saved in .profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.2/bin:${PATH}"
+export PATH
