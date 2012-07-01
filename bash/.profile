@@ -2,9 +2,9 @@
 #BASH CONFIGURATIONS
 
 # Exports
-# Old fancy one: export PS1="\[\033[4;31m\]DIRECTORY: \[\033[4;31m\]\\w\[\e[0m\] \n \[\033[0;32m\]$ \[\e[0m\]" 
-# Simple One: export PS1="\[\033[0;32m\]$ \[\e[0m\]" 
-PS1="\[\033[0;32m\]INPUT COMMAND $ \[\e[0m\]"
+
+# Simple One: 
+export PS1="\[\033[0;32m\]$ \[\e[0m\]" 
 
 # Enables fancy colors
 export CLICOLOR=true
@@ -33,15 +33,6 @@ alias .ssh="cd ~/.ssh" #Goes to the SSH folder
 alias code="cd ~/Dropbox/Code" 
 alias codep="cd ~/Dropbox/Code/Projects"
 
-# Internet Shortcuts
-alias gmail="open https://mail.google.com/"
-alias greader="open https://www.google.com/reader/view/"
-alias reddit="open http://www.reddit.com"
-alias facebook="open https://www.facebook.com"
-alias tumblr="open http://www.tumblr.com/"
-alias tnest="open http://tweets.zenstealth.com"
-alias tnestu="open http://tweets.zenstealth.com/maintenance/loadtweets.php"
-
 #############################################################################
 #PROJECTS
 
@@ -66,15 +57,10 @@ alias dot-vim="cp ~/.vimrc  ~/Dropbox/Code/dotfiles/vim/.vimrc && cp -r ~/.vim/*
 #############################################################################
 #APPS
 
-# Twitter
-alias tweet="twitter tweet"
-alias tstat="twitter status"
-
 # Application Shortcuts
 alias te="open -e" #Opens file in TextEdit
 alias tfinder="open /Applications/TotalFinder.app" #Opens TotalFinder if Finder is killed
 alias monitor="open /Applications/Utilities/Activity\ Monitor.app" #Opens Activity Monitor
-alias gedit="open -a /Applications/gedit.app" #Opens in gedit
 
 #############################################################################
 #GIT
@@ -83,6 +69,7 @@ alias gedit="open -a /Applications/gedit.app" #Opens in gedit
 alias ga='git add'
 alias gp='git push'
 alias gl='git log'
+alias glg='git lg'
 alias gs='git status'
 alias gd='git diff'
 alias gm='git commit -m'
@@ -99,37 +86,10 @@ alias github="open https://github.com" #Opens GitHub dashboard
 alias github-zen="open https://github.com/zenstealth" #Opens my GitHub profile
 
 #############################################################################
-#PREFERENCES
-
-# Easy Preference Editing
-alias profile-open="open ~/.profile" #Opens default Text Editor
-alias profile-textedit="open -e ~/.profile" #Opens in TextEdit
-alias profile="vim ~/.profile" #Opens in Vim
-alias profile-mvim="mvim ~/.profile" #Opens in MacVim
-alias profile="nano ~/.profile" #Opens in Nano
-alias profile-kod="kod ~/.profile" #Opens in Kod
-
-alias mamp-open="sudo open -e /Applications/MAMP/conf/apache/httpd.conf"
-alias mamp-kod="sudo kod /Applications/MAMP/conf/apache/httpd.conf"
-
-#############################################################################
 #SSH
 
-# SSH Config Edit
-alias sshconfig-nano="nano ~/.ssh/config" #Edits SSH Favorites
-alias sshconfig-open="open ~/.ssh/config" #Edits SSH Favorites in the default Text Editor
-alias sshconfig-kod="kod ~/.ssh/config" #Edits SSh Favorites in Kod
-
-# SSH Shortcuts
-alias ssh-zen="ssh nfsn-zen" #SSH into NFSN Main
-alias ssh-tweetnest="ssh nfsn-tweets" #SSH into Tweetnest
-alias ssh-dev="ssh dev" #SSH into Devio.us
-alias ssh-silence="ssh silence" #SSH into Silence is Defeat
-
 # SSH Tunnels
-alias tn='ssh tunnel -p 22 -N -D localhost:8080'
-alias tn443='ssh tunnel -p 443 -N -D localhost:8080'
-alias tn80='ssh tunnel -p 80 -N -D localhost:8080'
+alias tn='ssh feral -p 22 -N -D localhost:8080'
 
 #############################################################################
 #UTILITIES AND FUN STUFF
@@ -148,10 +108,6 @@ alias hc="history -c" #Clears history
 alias ip="curl icanhazip.com" #Gets Public IP from icanhazip.com
 alias http="python -m SimpleHTTPServer" #Starts a simple HTTP server in current directory at http://localhost:8000/
 
-# TODO.txt
-PATH=$PATH:"/Users/zenstealth/Dropbox/Code/Scripts/todo"
-alias todo='todo.sh -d ~/.todo.cfg'
-
 # Fun Stuff
 alias moo="fortune | cowsay -n"
 
@@ -167,18 +123,3 @@ alias eject="drutil tray eject 0"
 #############################################################################
 #THE OTHER OTHER STUFF
 
-# MacPorts Installer addition on 2011-01-19_at_23:32:46: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-# Finished adapting your PATH environment variable for use with MacPorts.
-
-# Setting PATH for MacPython 2.5
-# The orginal version is saved in .profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/Current/bin:${PATH}"
-export PATH
-
-test -r /sw/bin/init.sh && . /sw/bin/init.sh
-
-# Setting PATH for Python 3.2
-# The orginal version is saved in .profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.2/bin:${PATH}"
-export PATH
