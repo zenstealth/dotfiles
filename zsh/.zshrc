@@ -40,6 +40,9 @@ export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local
 # SHORTCUTS
 # -----------------------------------------------------------
 
+# ZSH
+alias zshconfig="open -e ~/.zshrc"
+
 # Directory Movement
 alias ..="cd .." #up one level
 alias ...="cd ../.." #up two levels
