@@ -10,6 +10,10 @@ cp -r ~/.ssh/* ~/Dropbox/Code/dotfiles/ssh/
 
 # Message of the day
 cp /etc/motd ~/Dropbox/Code/dotfiles/bash/motd
+
+# Git
+cp ~/.gitignore ~/Dropbox/Code/dotfiles/git/.gitignore
+
 # Vim
 cp ~/.vimrc  ~/Dropbox/Code/dotfiles/vim/.vimrc
 cp -r ~/.vim/* ~/Dropbox/Code/dotfiles/vim/.vim/
