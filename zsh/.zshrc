@@ -71,13 +71,8 @@ alias jdeploy="jekyll --no-auto && rsync -avz --delete _site/ nfsn-zen:/home/pub
 alias rhs="cd ~/Dropbox/Code/Projects/rhs"
 
 # Dotfiles
-alias dotfiles="cd ~/Dropbox/Code/dotfiles"
-alias dotall="dot-profile | dot-zsh | dot-git | dot-motd | dot-vim"
-alias dot-profile="cp ~/.profile ~/Dropbox/Code/dotfiles/bash/.profile"
-alias dot-zsh="cp ~/.zshrc ~/Dropbox/Code/dotfiles/zsh/"
-alias dot-git="cp ~/.gitignore_global ~/Dropbox/Code/dotfiles/git/.gitignore_global"
-alias dot-motd="cp /etc/motd ~/Dropbox/Code/dotfiles/bash/motd"
-alias dot-vim="cp ~/.vimrc  ~/Dropbox/Code/dotfiles/vim/.vimrc && cp -r ~/.vim/* ~/Dropbox/Code/dotfiles/vim/.vim/"
+alias dot="cd ~/Dropbox/Code/dotfiles"
+alias dotback="dot && ./backup.sh"
 
 # -----------------------------------------------------------
 # APPS
