@@ -4,7 +4,7 @@
 # Exports
 
 # Simple One: 
-export PS1="\[\033[0;32m\]$ \[\e[0m\]" 
+# export PS1="\[\033[0;32m\]$ \[\e[0m\]" 
 
 # Enables fancy colors
 export CLICOLOR=true
