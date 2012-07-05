@@ -123,7 +123,7 @@ alias tn='ssh feral -p 22 -N -D localhost:8080'
 
 # DELETE, DELETE, DELETE
 alias rm="rm -i" #Asks for confirmation when using rm
-alias delete="rmtrash" #Moves file to Trash Bin instead of obliterating it
+alias trash="rmtrash" #Moves file to Trash Bin instead of obliterating it
 
 # Useful Utilities
 alias clearcache="dscacheutil -flushcache"
