@@ -68,7 +68,7 @@ alias zen="cd ~/Dropbox/Code/Projects/zenstealth.com"
 alias jgen="jekyll --no-auto"
 alias jstart="jekyll --server --auto"
 alias jopen="open http://localhost:4000/"
-alias jdeploy="jekyll --no-auto && rsync -avz --delete _site/ nfsn-zen:/home/public"
+alias jdeploy="jekyll --no-auto && rsync -avzh --delete _site/ nfsn-zen:/home/public"
 
 # Other Projects
 alias rhs="cd ~/Dropbox/Code/Projects/rhs"
