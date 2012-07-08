@@ -41,7 +41,7 @@ export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local
 # -----------------------------------------------------------
 
 # ZSH
-alias zshconfig="open -e ~/.zshrc"
+alias zshconfig="kod ~/.zshrc"
 
 # Directory Movement
 alias ..="cd .." #up one level
@@ -68,7 +68,7 @@ alias zen="cd ~/Dropbox/Code/Projects/zenstealth.com"
 alias jgen="jekyll --no-auto"
 alias jstart="jekyll --server --auto"
 alias jopen="open http://localhost:4000/"
-alias jdeploy="jekyll --no-auto && rsync -avzh --delete _site/ nfsn-zen:/home/public"
+alias jdeploy="./deploy.sh"
 
 # Other Projects
 alias rhs="cd ~/Dropbox/Code/Projects/rhs"
