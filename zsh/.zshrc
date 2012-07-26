@@ -134,7 +134,7 @@ alias bootup="cat /etc/motd"
 alias pwdcopy="pwd | pbcopy"
 
 alias h="history" #History Shortcut
-alias hc="history -c" #Clears history
+alias hc="rm -f .zsh_history" #Clears history
 
 alias ip="curl icanhazip.com" #Gets Public IP from icanhazip.com
 alias http="python -m SimpleHTTPServer" #Starts a simple HTTP server in current directory at http://localhost:8000/
