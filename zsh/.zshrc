@@ -69,6 +69,7 @@ alias jgen="jekyll --no-auto"
 alias jstart="jekyll --server --auto"
 alias jopen="open http://localhost:4000/"
 alias jdeploy="./deploy.sh"
+alias publish="gp && jdeploy; growl -n ZENSTEALTH.COM -m 'Sync complete.'"
 
 # Other Projects
 alias rhs="cd ~/Dropbox/Code/Projects/rhs"
