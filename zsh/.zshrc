@@ -25,7 +25,7 @@ ZSH_THEME="nanotech"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git brew)
+plugins=(git brew osx)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -65,6 +65,7 @@ alias codep="cd ~/Dropbox/Code/Projects"
 
 # ZENSTEALTH.COM
 alias zen="cd ~/Dropbox/Code/Projects/zenstealth.com"
+alias zenstart="zen && kod . && open http://localhost:4000/ && jstart"
 alias jgen="jekyll --no-auto"
 alias jstart="jekyll --server --auto"
 alias jopen="open http://localhost:4000/"
