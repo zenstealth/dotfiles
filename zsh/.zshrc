@@ -57,7 +57,7 @@ alias .ssh="cd ~/.ssh" #Goes to the SSH folder
 
 # Code Directory Shortcuts
 alias code="cd ~/Dropbox/Code" 
-alias codep="cd ~/Dropbox/Code/Projects"
+alias websites="cd ~/Dropbox/Code/Websites"
 
 # -----------------------------------------------------------
 # DROPBOX
@@ -76,7 +76,7 @@ alias publish="gp && jdeploy; growl -n ZENSTEALTH.COM -m 'Site sync complete.'"
 alias projects="cd ~/Dropbox/Code/Projects/"
 
 # Dotfiles
-alias dot="cd ~/Dropbox/Code/dotfiles"
+alias dot="cd ~/Dropbox/Code/Dotfiles"
 alias dotpack="dot && ./backup.sh"
 
 # -----------------------------------------------------------
