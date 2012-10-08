@@ -65,7 +65,7 @@ alias websites="cd ~/Dropbox/Code/Websites"
 
 # ZENSTEALTH.COM
 alias zen="cd ~/Dropbox/Code/Websites/Personal/zenstealth.com"
-alias zenstart="zen && kod . && open http://localhost:4000/ && jstart"
+alias zenstart="zen && kod . && open http://zenstealth.dev/ && jekyll"
 alias jgen="jekyll --no-auto"
 alias jstart="jekyll --server --auto"
 alias jopen="open http://localhost:4000/"
