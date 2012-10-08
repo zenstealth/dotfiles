@@ -123,6 +123,24 @@ alias github-zen="open https://github.com/zenstealth" #Opens my GitHub profile
 alias tn='ssh feral -p 22 -N -D localhost:8080'
 
 # -----------------------------------------------------------
+# RSYNC BACKUPS
+# -----------------------------------------------------------
+alias rmovies="rsync -rtuvanh ~/Movies/ /Volumes/Storage/Movies/"
+alias rmovies-su="rsync -rtuvah ~/Movies/ /Volumes/Storage/Movies/"
+
+alias rtv="rsync -rtuvanh ~/T.V.\ Shows/ /Volumes/Storage/T.V.\ Shows/"
+alias rtv-su="rsync -rtuvah ~/T.V.\ Shows/ /Volumes/Storage/T.V.\ Shows/"
+
+alias rmusic="rsync -rtvuanh --delete ~/Music/iTunes/ /Volumes/Storage/Music/Music\ Backup/iTunes/"
+alias rphotos-su="rsync -rtvuah --delete ~/Dropbox/Photos/ /Volumes/Storage/Photos/Dropbox\ Photos/"
+
+alias rkindle1="rsync -rtvuanh --delete /Volumes/Kindle/ ~/Books/Kindle\ Backup/"
+alias rkindle1-su="rsync -rtvuah --delete /Volumes/Kindle/ ~/Books/Kindle\ Backup/"
+
+alias rkindle2="rsync -rtvuanh --delete ~/Books/Kindle\ Backup/ /Volumes/Storage/Books/Kindle\ Backup/"
+alias rkindle2-su="rsync -rtvuah --delete ~/Books/Kindle\ Backup/ /Volumes/Storage/Books/Kindle\ Backup/"
+
+# -----------------------------------------------------------
 # UTILITIES AND FUN STUFF
 # -----------------------------------------------------------
 
