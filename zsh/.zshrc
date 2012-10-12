@@ -63,17 +63,18 @@ alias websites="cd ~/Dropbox/Code/Websites"
 # DROPBOX
 # -----------------------------------------------------------
 
-# ZENSTEALTH.COM
-alias zen="cd ~/Dropbox/Code/Websites/Personal/zenstealth.com"
-alias zenstart="zen && kod . && open http://zenstealth.dev/ && jekyll"
+# Jekyll Shortcuts
 alias jgen="jekyll --no-auto"
 alias jstart="jekyll --server --auto"
 alias jopen="open http://localhost:4000/"
 alias jdeploy="./deploy.sh"
 alias publish="gp && jdeploy; growl -n ZENSTEALTH.COM -m 'Site sync complete.'"
 
-# Projects
-alias projects="cd ~/Dropbox/Code/Projects/"
+# Websites
+alias websites="cd ~/Dropbox/Code/Websites/"
+alias zen="cd ~/Dropbox/Code/Websites/Personal/zenstealth.com"
+alias zenstart="zen && kod . && open http://zenstealth.dev/ && jekyll"
+alias club="cd ~/Dropbox/Code/Websites/Personal/club-otaku.zenstealth.com"
 
 # Dotfiles
 alias dot="cd ~/Dropbox/Code/Dotfiles"
