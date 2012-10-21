@@ -117,11 +117,15 @@ alias github="open https://github.com" #Opens GitHub dashboard
 alias github-zen="open https://github.com/zenstealth" #Opens my GitHub profile
 
 # -----------------------------------------------------------
-# SSH
+# SSH SHORTCUTS
 # -----------------------------------------------------------
 
 # SSH Tunnels
 alias tn='ssh feral -p 22 -N -D localhost:8080'
+
+# SSH Connections
+
+alias pi="ssh pi"
 
 # -----------------------------------------------------------
 # RSYNC BACKUPS
