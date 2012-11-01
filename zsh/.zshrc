@@ -59,6 +59,12 @@ alias .ssh="cd ~/.ssh" #Goes to the SSH folder
 alias code="cd ~/Dropbox/Code" 
 alias websites="cd ~/Dropbox/Code/Websites"
 
+# Raspberry Pi Shortcuts
+alias picode="cd ~/Dropbox/Code/Raspberry\ Pi"
+alias pifirmware="cd ~/Documents/Raspberry\ Pi/firmware"
+alias piboot="cd ~/Documents/Raspberry\ Pi/firmware/boot"
+alias pisdupdate="cd ~/Dropbox/Code/Raspberry\ Pi/Boot/Scripts/ && ./sd_update.sh"
+
 # -----------------------------------------------------------
 # DROPBOX
 # -----------------------------------------------------------
@@ -124,7 +130,6 @@ alias github-zen="open https://github.com/zenstealth" #Opens my GitHub profile
 alias tn='ssh feral -p 22 -N -D localhost:8080'
 
 # SSH Connections
-
 alias pi="ssh pi"
 
 # -----------------------------------------------------------
