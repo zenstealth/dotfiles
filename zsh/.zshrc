@@ -41,7 +41,7 @@ export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local
 # -----------------------------------------------------------
 
 # ZSH
-alias zshconfig="kod ~/.zshrc"
+alias zshconfig="sublime ~/.zshrc"
 
 # Directory Movement
 alias ..="cd .." #up one level
@@ -79,7 +79,7 @@ alias publish="gp && jdeploy; growl -n ZENSTEALTH.COM -m 'Site sync complete.'"
 # Websites
 alias websites="cd ~/Dropbox/Code/Websites/"
 alias zen="cd ~/Dropbox/Code/Websites/Personal/zenstealth.com"
-alias zenstart="zen && kod . && open http://zenstealth.dev/ && jekyll"
+alias zendev="zen && sublime . && open http://zenstealth.dev/ && jekyll"
 alias club="cd ~/Dropbox/Code/Websites/Personal/club-otaku.zenstealth.com"
 
 # Dotfiles
