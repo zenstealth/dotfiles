@@ -31,6 +31,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/MacGPG2/bin
+export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
 
 # ------------------------------------------------------------------------------------------
 # Aliases
@@ -79,7 +80,7 @@ alias publish="gp && jdeploy; growl -n ZENSTEALTH.COM -m 'Site sync complete.'"
 # Websites
 alias websites="cd ~/Dropbox/Code/Websites/"
 alias zen="cd ~/Dropbox/Code/Websites/Personal/zenstealth.com"
-alias zendev="zen && sublime . && open http://zenstealth.dev/ && jekyll"
+alias zenstart="zen && sublime . && open http://zenstealth.dev/ && jekyll"
 alias club="cd ~/Dropbox/Code/Websites/Personal/club-otaku.zenstealth.com"
 
 # Dotfiles
@@ -148,11 +149,11 @@ alias rmusic-su="rsync -rtvuah --delete ~/Music/iTunes/ /Volumes/Storage/Music/M
 alias rphotos="rsync -rtvuanh --delete ~/Dropbox/Photos/ /Volumes/Storage/Photos/Dropbox\ Photos/"
 alias rphotos-su="rsync -rtvuah --delete ~/Dropbox/Photos/ /Volumes/Storage/Photos/Dropbox\ Photos/"
 
-alias rkindle1="rsync -rtvuanh --delete /Volumes/Kindle/ ~/Books/Kindle\ Backup/"
-alias rkindle1-su="rsync -rtvuah --delete /Volumes/Kindle/ ~/Books/Kindle\ Backup/"
+alias rkindle="rsync -rtvuanh --delete /Volumes/Kindle/ ~/Books/Kindle\ Backup/"
+alias rkindle-su="rsync -rtvuah --delete /Volumes/Kindle/ ~/Books/Kindle\ Backup/"
 
-alias rkindle2="rsync -rtvuanh --delete ~/Books/Kindle\ Backup/ /Volumes/Storage/Books/Kindle\ Backup/"
-alias rkindle2-su="rsync -rtvuah --delete ~/Books/Kindle\ Backup/ /Volumes/Storage/Books/Kindle\ Backup/"
+alias rbooks="rsync -rtvuanh --delete ~/Books/ /Volumes/Storage/Books/"
+alias rbooks-su="rsync -rtvuah --delete ~/Books/ /Volumes/Storage/Books/"
 
 # -----------------------------------------------------------
 # UTILITIES AND FUN STUFF
