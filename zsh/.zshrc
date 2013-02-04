@@ -35,7 +35,7 @@ export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
 
 # ------------------------------------------------------------------------------------------
 # Aliases
-# ----------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------
 
 # -----------------------------------------------------------
 # SHORTCUTS
@@ -63,8 +63,7 @@ alias websites="cd ~/Dropbox/Code/Websites"
 # Raspberry Pi Shortcuts
 alias picode="cd ~/Dropbox/Code/Raspberry\ Pi"
 alias pifirmware="cd ~/Documents/Raspberry\ Pi/firmware"
-alias piboot="cd ~/Documents/Raspberry\ Pi/firmware/boot"
-alias pisdupdate="cd ~/Dropbox/Code/Raspberry\ Pi/Boot/Scripts/ && ./sd_update.sh"
+alias raspbian="cd ~/Documents/Raspberry\ Pi/Operating\ Systems/Raspbian"
 
 # -----------------------------------------------------------
 # DROPBOX
@@ -81,7 +80,6 @@ alias publish="gp && jdeploy; growl -n ZENSTEALTH.COM -m 'Site sync complete.'"
 alias websites="cd ~/Dropbox/Code/Websites/"
 alias zen="cd ~/Dropbox/Code/Websites/Personal/zenstealth.com"
 alias zenstart="zen && sublime . && open http://zenstealth.dev/ && jekyll"
-alias club="cd ~/Dropbox/Code/Websites/Personal/club-otaku.zenstealth.com"
 
 # Dotfiles
 alias dot="cd ~/Dropbox/Code/Dotfiles"
@@ -169,7 +167,7 @@ alias bootup="cat /etc/motd"
 alias pwdcopy="pwd | pbcopy"
 
 alias h="history" #History Shortcut
-alias hc="rm -f .zsh_history" #Clears history
+alias hc="rm -f ~/.zsh_history" #Clears history
 
 alias ip="curl icanhazip.com" #Gets Public IP from icanhazip.com
 alias http="python -m SimpleHTTPServer" #Starts a simple HTTP server in current directory at http://localhost:8000/
