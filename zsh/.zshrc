@@ -31,7 +31,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/MacGPG2/bin
-export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
+export PATH=/usr/local/bin:/usr/local/sbin:~/bin:$PATH
+export PATH=/usr/local/Cellar/ruby/bin:$PATH
 
 # ------------------------------------------------------------------------------------------
 # Aliases
