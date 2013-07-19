@@ -2,18 +2,18 @@
 # Script to backup Dotfiles
 
 # Profiles
-cp ~/.profile ~/Dropbox/Code/Dotfiles/bash/.profile
-cp ~/.zshrc ~/Dropbox/Code/Dotfiles/zsh/.zshrc
+cp ~/.profile ~/Sync/Code/Dotfiles/bash/.profile
+cp ~/.zshrc ~/Sync/Code/Dotfiles/zsh/.zshrc
 
 # SSH
-cp -r ~/.ssh/* ~/Dropbox/Code/Dotfiles/ssh/
+cp -r ~/.ssh/* ~/Sync/Code/Dotfiles/ssh/
 
 # Message of the day
-cp /etc/motd ~/Dropbox/Code/Dotfiles/bash/motd
+cp /etc/motd ~/Sync/Code/Dotfiles/bash/motd
 
 # Git
-cp ~/.gitignore ~/Dropbox/Code/Dotfiles/git/.gitignore
+cp ~/.gitignore ~/Sync/Code/Dotfiles/git/.gitignore
 
 # Vim
-cp ~/.vimrc  ~/Dropbox/Code/Dotfiles/vim/.vimrc
-cp -r ~/.vim/* ~/Dropbox/Code/Dotfiles/vim/.vim/
+cp ~/.vimrc  ~/Sync/Code/Dotfiles/vim/.vimrc
+cp -r ~/.vim/* ~/Sync/Code/Dotfiles/vim/.vim/
