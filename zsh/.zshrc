@@ -33,6 +33,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/MacGPG2/bin
 export PATH=/usr/local/bin:/usr/local/sbin:~/bin:$PATH
 export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+export PATH=${PATH}:/Users/zenstealth/Sync/Android/Nexus\ 4/Tools/platform-tools
 
 # ------------------------------------------------------------------------------------------
 # Aliases
@@ -129,23 +130,22 @@ alias pi="ssh pi"
 # RSYNC BACKUPS
 # -----------------------------------------------------------
 
-alias rmovies="rsync -rtuvanh ~/Movies/ /Volumes/Storage/Movies/"
-alias rmovies-su="rsync -rtuvah ~/Movies/ /Volumes/Storage/Movies/"
+alias stacker-music="rsync -rtvuanh --delete ~/Music/iTunes/ /Volumes/Storage/Music/Music\ Backup/iTunes/"
+alias stacker-music-su="rsync -rtvuah --delete ~/Music/iTunes/ /Volumes/Storage/Music/Music\ Backup/iTunes/"
 
-alias rtv="rsync -rtuvanh ~/T.V.\ Shows/ /Volumes/Storage/T.V.\ Shows/"
-alias rtv-su="rsync -rtuvah ~/T.V.\ Shows/ /Volumes/Storage/T.V.\ Shows/"
+alias raleigh-music="rsync -rtvuanh --delete ~/Music/ /Volumes/RALEIGH/Music/"
+alias raleigh-music-su="rsync -rtvuah --delete ~/Music/ /Volumes/RALEIGH/Music/"
+alias raleigh-sync="rsync -rtvuanh --delete ~/Sync/ /Volumes/RALEIGH/Sync/"
+alias raleigh-sync-su="rsync -rtvuah --delete ~/Sync/ /Volumes/RALEIGH/Sync/"
 
-alias rmusic="rsync -rtvuanh --delete ~/Music/iTunes/ /Volumes/Storage/Music/Music\ Backup/iTunes/"
-alias rmusic-su="rsync -rtvuah --delete ~/Music/iTunes/ /Volumes/Storage/Music/Music\ Backup/iTunes/"
+alias kindle="rsync -rtvuanh --delete /Volumes/Kindle/ ~/Sync/Books/Kindle\ Backup/"
+alias kindle-su="rsync -rtvuah --delete /Volumes/Kindle/ ~/Sync/Books/Kindle\ Backup/"
 
-alias rphotos="rsync -rtvuanh --delete ~/Sync/Photos/ /Volumes/Storage/Photos/Sync\ Photos/"
-alias rphotos-su="rsync -rtvuah --delete ~/Sync/Photos/ /Volumes/Storage/Photos/Sync\ Photos/"
+alias cruzer-2gb="rsync -rtvuanh --delete /Volumes/CRUZER\ 2GB/ ~/Sync/External\ Storage/CRUZER\ 2GB/"
+alias cruzer-2gb-su="rsync -rtvuah --delete /Volumes/CRUZER\ 2GB/ ~/Sync/External\ Storage/CRUZER\ 2GB/"
 
-alias rkindle="rsync -rtvuanh --delete /Volumes/Kindle/ ~/Books/Kindle\ Backup/"
-alias rkindle-su="rsync -rtvuah --delete /Volumes/Kindle/ ~/Books/Kindle\ Backup/"
-
-alias rbooks="rsync -rtvuanh --delete ~/Books/ /Volumes/Storage/Books/"
-alias rbooks-su="rsync -rtvuah --delete ~/Books/ /Volumes/Storage/Books/"
+alias cruzer-8gb="rsync -rtvuanh --delete /Volumes/CRUZER\ 8GB/ ~/Sync/External\ Storage/CRUZER\ 8GB/"
+alias cruzer-8gb-su="rsync -rtvuah --delete /Volumes/CRUZER\ 8GB/ ~/Sync/External\ Storage/CRUZER\ 8GB/"
 
 # -----------------------------------------------------------
 # UTILITIES AND FUN STUFF
