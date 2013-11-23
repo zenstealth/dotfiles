@@ -33,7 +33,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/MacGPG2/bin
 export PATH=/usr/local/bin:/usr/local/sbin:~/bin:$PATH
 export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-export PATH=${PATH}:/Users/zenstealth/Sync/Android/Nexus\ 4/Tools/platform-tools
+export PATH=${PATH}:/Users/zenstealth/Sync/Projects/Android/ADB
 
 # ------------------------------------------------------------------------------------------
 # Aliases
@@ -54,6 +54,15 @@ alias desk="cd ~/Desktop" #Goes to the Desktop
 alias down="cd ~/Downloads" #Goes to the Downloads folder
 alias sync="cd ~/Sync" #Goes to the Sync folder
 alias .ssh="cd ~/.ssh" #Goes to the SSH folder
+ 
+# -----------------------------------------------------------
+# Android
+# -----------------------------------------------------------
+
+# Android
+alias android="cd ~/Sync/Projects/Android/"
+alias n4="cd ~/Sync/Projects/Android/Devices/Nexus\ 4/"
+alias n7="cd ~/Sync/Projects/Android/Devices/Nexus\ 7/"
 
 # -----------------------------------------------------------
 # WEB DEVELOPMENT
@@ -130,8 +139,10 @@ alias pi="ssh pi"
 # RSYNC BACKUPS
 # -----------------------------------------------------------
 
-alias stacker-music="rsync -rtvuanh --delete ~/Music/iTunes/ /Volumes/Storage/Music/Music\ Backup/iTunes/"
-alias stacker-music-su="rsync -rtvuah --delete ~/Music/iTunes/ /Volumes/Storage/Music/Music\ Backup/iTunes/"
+alias stacker-music="rsync -rtvuanh --delete ~/Music/iTunes/ /Volumes/STACKER/Music/Music\ Backup/iTunes"
+alias stacker-music-su="rsync -rtvuah --delete ~/Music/iTunes/ /Volumes/STACKER/Music/Music\ Backup/iTunes"
+alias pentecost-sync="rsync -rtvuanh --delete ~/Sync/ /Volumes/PENTECOST/Users/zenstealth/Sync/"
+alias pentecost-sync-su="rsync -rtvuah --delete ~/Sync/ /Volumes/PENTECOST/Users/zenstealth/Sync/"
 
 alias raleigh-music="rsync -rtvuanh --delete ~/Music/ /Volumes/RALEIGH/Music/"
 alias raleigh-music-su="rsync -rtvuah --delete ~/Music/ /Volumes/RALEIGH/Music/"
@@ -141,11 +152,8 @@ alias raleigh-sync-su="rsync -rtvuah --delete ~/Sync/ /Volumes/RALEIGH/Sync/"
 alias kindle="rsync -rtvuanh --delete /Volumes/Kindle/ ~/Sync/Books/Kindle\ Backup/"
 alias kindle-su="rsync -rtvuah --delete /Volumes/Kindle/ ~/Sync/Books/Kindle\ Backup/"
 
-alias cruzer-2gb="rsync -rtvuanh --delete /Volumes/CRUZER\ 2GB/ ~/Sync/External\ Storage/CRUZER\ 2GB/"
-alias cruzer-2gb-su="rsync -rtvuah --delete /Volumes/CRUZER\ 2GB/ ~/Sync/External\ Storage/CRUZER\ 2GB/"
-
-alias cruzer-8gb="rsync -rtvuanh --delete /Volumes/CRUZER\ 8GB/ ~/Sync/External\ Storage/CRUZER\ 8GB/"
-alias cruzer-8gb-su="rsync -rtvuah --delete /Volumes/CRUZER\ 8GB/ ~/Sync/External\ Storage/CRUZER\ 8GB/"
+alias phcc="rsync -rtvuanh --delete /Volumes/PHCC/ ~/Sync/Edu/PHCC/"
+alias phcc-su="rsync -rtvuah --delete /Volumes/PHCC/ ~/Sync/Edu/PHCC/"
 
 # -----------------------------------------------------------
 # UTILITIES AND FUN STUFF
