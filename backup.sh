@@ -2,7 +2,7 @@
 # Script to backup Dotfiles
 
 # Profiles
-cp ~/.profile ~/Sync/Code/Dotfiles/bash/.profile
+# UNUSED: cp ~/.profile ~/Sync/Code/Dotfiles/bash/.profile
 cp ~/.zshrc ~/Sync/Code/Dotfiles/zsh/.zshrc
 
 # SSH

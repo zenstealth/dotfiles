@@ -30,8 +30,8 @@ plugins=(git brew osx)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/MacGPG2/bin
-export PATH=/usr/local/bin:/usr/local/sbin:~/bin:$PATH
+export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/MacGPG2/bin
+export PATH=$PATH:/usr/local/bin:/usr/local/sbin:~/bin:$PATH
 export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export PATH=${PATH}:/Users/zenstealth/Sync/Projects/Android/ADB
 
@@ -130,10 +130,10 @@ alias github-zen="open https://github.com/zenstealth" #Opens my GitHub profile
 # -----------------------------------------------------------
 
 # SSH Tunnels
-alias tn='ssh feral -p 22 -N -D localhost:8080'
+# Example: alias tn='ssh server -p 22 -N -D localhost:8080'
 
 # SSH Connections
-alias pi="ssh pi"
+# Example: alias foo="ssh bar"
 
 # -----------------------------------------------------------
 # RSYNC BACKUPS
