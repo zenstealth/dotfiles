@@ -76,11 +76,10 @@ alias zenstart="zen && subl . && open http://zenstealth.dev/ && jstart"
 alias omiah="cd ~/Sync/Code/Websites/Friends/omiah.github.io"
 
 # Jekyll Shortcuts
-alias jgen="jekyll --no-auto"
-alias jstart="jekyll --server --auto"
-alias jopen="open http://localhost:4000/"
-alias jdeploy="./deploy.sh"
-alias publish="gp && jdeploy; growl -n ZENSTEALTH.COM -m 'Site sync complete.'"
+alias jbuild="jekyll build"
+alias jserve="jekyll serve --watch" 
+alias jpublish="./publish.sh; growl -n ZENSTEALTH.COM -m 'Site sync complete.'"
+alias zendev="open http://localhost:4000/"
 
 # Dotfiles
 alias dot="cd ~/Sync/Code/Dotfiles"
