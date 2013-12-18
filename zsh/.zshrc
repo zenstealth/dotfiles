@@ -1,3 +1,7 @@
+# ------------------------------------------------------------------------------------------
+# OH-MY-ZSH // MAXIMUM CONFIGURATION
+# ------------------------------------------------------------------------------------------
+
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
@@ -36,11 +40,11 @@ export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export PATH=${PATH}:/Users/zenstealth/Sync/Projects/Android/ADB
 
 # ------------------------------------------------------------------------------------------
-# Aliases
+# ALIASES // THE MACHINE KNOWS YOU ARE READING THIS
 # ------------------------------------------------------------------------------------------
 
 # -----------------------------------------------------------
-# DIRECTORY SHORTCUTS
+# SHORTCUTS
 # -----------------------------------------------------------
 
 # Directory Movement
@@ -54,55 +58,30 @@ alias desk="cd ~/Desktop" #Goes to the Desktop
 alias down="cd ~/Downloads" #Goes to the Downloads folder
 alias sync="cd ~/Sync" #Goes to the Sync folder
 alias .ssh="cd ~/.ssh" #Goes to the SSH folder
- 
-# -----------------------------------------------------------
-# Android
-# -----------------------------------------------------------
-
-# Android
-alias android="cd ~/Sync/Projects/Android/"
-alias n4="cd ~/Sync/Projects/Android/Devices/Nexus\ 4/"
-alias n7="cd ~/Sync/Projects/Android/Devices/Nexus\ 7/"
-
-# -----------------------------------------------------------
-# WEB DEVELOPMENT
-# -----------------------------------------------------------
-
-# Websites
-alias code="cd ~/Sync/Code"
-alias sites="cd ~/Sync/Code/Websites/"
-alias zen="cd ~/Sync/Code/Websites/Personal/zenstealth.com"
-alias zenstart="zen && subl . && open http://zenstealth.dev/ && jstart"
-alias omiah="cd ~/Sync/Code/Websites/Friends/omiah.github.io"
-
-# Jekyll Shortcuts
-alias jbuild="jekyll build"
-alias jserve="jekyll serve --watch" 
-alias jpublish="./publish.sh; growl -n ZENSTEALTH.COM -m 'Site sync complete.'"
-alias zendev="open http://localhost:4000/"
-
-# Dotfiles
-alias dot="cd ~/Sync/Code/Dotfiles"
-alias dotpack="dot && ./backup.sh"
-
-# -----------------------------------------------------------
-# APPS
-# -----------------------------------------------------------
-
-# ZSH
-alias zshconfig="subl ~/.zshrc"
 
 # Application Shortcuts
 alias te="open -e" #Opens file in TextEdit
 alias tfinder="open /Applications/TotalFinder.app" #Opens TotalFinder if Finder is killed
 alias monitor="open /Applications/Utilities/Activity\ Monitor.app" #Opens Activity Monitor
 
-# Growl Notifications
+# -----------------------------------------------------------
+# DEVELOPMENT
+# -----------------------------------------------------------
+
+# ZSH
+alias zshconfig="subl ~/.zshrc"
 alias growl="growlnotify -m"
 
-# -----------------------------------------------------------
-# GIT
-# -----------------------------------------------------------
+# Websites
+alias code="cd ~/Sync/Code"
+alias zen="cd ~/Sync/Code/Websites/zenstealth/zenstealth.com"
+alias zensites="cd ~/Sync/Code/Websites/zenstealth/"
+alias zenstart="zen && subl . && open http://localhost:4000/ && jserve"
+
+# Jekyll Shortcuts
+alias jbuild="jekyll build"
+alias jserve="jekyll serve --watch" 
+alias jpublish="./publish.sh; growl -n ZENSTEALTH.COM -m 'Site sync complete.'"
 
 # Git Shortcuts
 alias ga='git add'
@@ -124,8 +103,17 @@ alias gcl='git clone'
 alias github="open https://github.com" #Opens GitHub dashboard
 alias github-zen="open https://github.com/zenstealth" #Opens my GitHub profile
 
+# Dotfiles
+alias dot="cd ~/Sync/Code/Dotfiles"
+alias dotpack="dot && ./backup.sh"
+
+# Android
+alias android="cd ~/Sync/Projects/Android/Devices/"
+alias n4="cd ~/Sync/Projects/Android/Devices/Nexus\ 4/"
+alias n7="cd ~/Sync/Projects/Android/Devices/Nexus\ 7/"
+
 # -----------------------------------------------------------
-# SSH SHORTCUTS
+# SSH
 # -----------------------------------------------------------
 
 # SSH Tunnels
