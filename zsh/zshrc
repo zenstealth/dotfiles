@@ -29,16 +29,15 @@ ZSH_THEME="nanotech"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git brew brew-cask osx ruby zsh-syntax-highlighting)
+plugins=(git brew osx)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/usr/local/bin:/usr/local/sbin:~/bin:$PATH #More Homebrew
-export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting #Ruby RVM
-export PATH=${PATH}:/Users/zenstealth/Sync/Code/Google/Android/ADB #Android ADB tool
 export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/MacGPG2/bin
+export PATH=$PATH:/usr/local/bin:/usr/local/sbin:~/bin:$PATH
+export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+export PATH=${PATH}:/Users/zenstealth/Sync/Projects/Android/ADB
 
 # ------------------------------------------------------------------------------------------
 # ALIASES // THE MACHINE KNOWS YOU ARE READING THIS
@@ -72,9 +71,6 @@ alias monitor="open /Applications/Utilities/Activity\ Monitor.app" #Opens Activi
 # ZSH
 alias zshconfig="subl ~/.zshrc"
 alias growl="growlnotify -m"
-
-# Homebrew
-alias bcask="brew cask"
 
 # Websites
 alias code="cd ~/Sync/Code"
@@ -115,7 +111,6 @@ alias dotpack="dot && ./backup.sh"
 alias android="cd ~/Sync/Projects/Android/Devices/"
 alias n4="cd ~/Sync/Projects/Android/Devices/Nexus\ 4/"
 alias n7="cd ~/Sync/Projects/Android/Devices/Nexus\ 7/"
-alias galaxy="cd ~/Sync/Projects/Android/Devices/Galaxy\ Nexus/"
 
 # -----------------------------------------------------------
 # SSH
@@ -126,8 +121,6 @@ alias galaxy="cd ~/Sync/Projects/Android/Devices/Galaxy\ Nexus/"
 
 # SSH Connections
 # Example: alias foo="ssh bar"
-
-alias feral="ssh feral"
 
 # -----------------------------------------------------------
 # RSYNC BACKUPS
@@ -161,9 +154,6 @@ alias trash="rmtrash" #Moves file to Trash Bin instead of obliterating it
 alias clearcache="dscacheutil -flushcache"
 alias bootup="cat /etc/motd"
 alias pwdcopy="pwd | pbcopy"
-alias upgrade-everything="upgrade_oh_my_zsh && brew update && brew upgrade"
-alias yt='youtube-dl -o "%(title)s.%(ext)s"' #Downloads videos from Youtube
-alias ytm='youtube-dl --extract-audio --audio-format mp3 --audio-quality 320K' #Downloads videos from Youtube as mp3 files
 
 alias h="history" #History Shortcut
 alias hc="rm -f ~/.zsh_history" #Clears history
