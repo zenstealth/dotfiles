@@ -37,7 +37,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$PATH:/usr/local/bin:/usr/local/sbin:~/bin:$PATH #More Homebrew
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting #Ruby RVM
-export PATH=${PATH}:/Users/zenstealth/Sync/Code/Google/Android/ADB #Android ADB tool
+export PATH=${PATH}:/Users/zenstealth/Sync/Tech/Google/Android/ADB #Android ADB tool
 export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/MacGPG2/bin
 
 # ------------------------------------------------------------------------------------------
@@ -77,9 +77,9 @@ alias growl="growlnotify -m"
 alias bcask="brew cask"
 
 # Websites
-alias code="cd ~/Sync/Code"
-alias zen="cd ~/Sync/Code/Websites/zenstealth/zenstealth.com"
-alias zensites="cd ~/Sync/Code/Websites/zenstealth/"
+alias code="cd ~/Sync/Tech/Code"
+alias zen="cd ~/Sync/Tech/Websites/zenstealth/zenstealth.com"
+alias zensites="cd ~/Sync/Tech/Websites/zenstealth/"
 alias zenstart="zen && subl . && open http://localhost:4000/ && jserve"
 
 # Jekyll Shortcuts
@@ -108,14 +108,8 @@ alias github="open https://github.com" #Opens GitHub dashboard
 alias github-zen="open https://github.com/zenstealth" #Opens my GitHub profile
 
 # Dotfiles
-alias dot="cd ~/Sync/Code/Dotfiles"
+alias dot="cd ~/Sync/Tech/Code/Dotfiles/"
 alias dotpack="dot && ./backup.sh"
-
-# Android
-alias android="cd ~/Sync/Projects/Android/Devices/"
-alias n4="cd ~/Sync/Projects/Android/Devices/Nexus\ 4/"
-alias n7="cd ~/Sync/Projects/Android/Devices/Nexus\ 7/"
-alias galaxy="cd ~/Sync/Projects/Android/Devices/Galaxy\ Nexus/"
 
 # -----------------------------------------------------------
 # SSH
@@ -146,8 +140,8 @@ alias raleigh-sync-su="rsync -rtvuah --delete ~/Sync/ /Volumes/RALEIGH/Sync/"
 alias kindle="rsync -rtvuanh --delete /Volumes/Kindle/ ~/Sync/Books/Kindle\ Backup/"
 alias kindle-su="rsync -rtvuah --delete /Volumes/Kindle/ ~/Sync/Books/Kindle\ Backup/"
 
-alias phcc="rsync -rtvuanh --delete /Volumes/PHCC/ ~/Sync/Edu/PHCC/"
-alias phcc-su="rsync -rtvuah --delete /Volumes/PHCC/ ~/Sync/Edu/PHCC/"
+alias phcc="rsync -rtvuanh --delete /Volumes/PHCC/ ~/Sync/Documents/Education/PHCC/"
+alias phcc-su="rsync -rtvuah --delete /Volumes/PHCC/ ~/Sync/Documents/Education/PHCC/"
 
 # -----------------------------------------------------------
 # UTILITIES AND FUN STUFF
