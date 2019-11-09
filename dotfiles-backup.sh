@@ -1,12 +1,16 @@
 #!/bin/bash
 # Script to backup Dotfiles
 
-# ZSH
+# zsh
 cp ~/.zshrc ~/Code/Dotfiles/zsh/ada-t440p.zshrc
+cp ~/.oh-my-zsh/custom/aliases.zsh ~/Code/Dotfiles/zsh/aliases.zsh
 
-# Git
+# git
 cp ~/.gitignore ~/Code/Dotfiles/git/.gitignore
 
-# Vim
+# vim
 cp ~/.vimrc  ~/Code/Dotfiles/vim/.vimrc
 cp -r ~/.vim/* ~/Code/Dotfiles/vim/.vim/
+
+# tmux
+cp ~/.tmux.conf ~/Code/Dotfiles/tmux/.tmux.conf
