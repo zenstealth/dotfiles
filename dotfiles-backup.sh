@@ -4,9 +4,6 @@
 # ZSH
 cp ~/.zshrc ~/Code/Dotfiles/zsh/ada-t440p.zshrc
 
-# SSH
-cp -r ~/.ssh/* ~/Code/Dotfiles/ssh/
-
 # Git
 cp ~/.gitignore ~/Code/Dotfiles/git/.gitignore
 
