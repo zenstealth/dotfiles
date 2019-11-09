@@ -14,3 +14,6 @@ cp -r ~/.vim/* ~/Code/Dotfiles/vim/.vim/
 
 # tmux
 cp ~/.tmux.conf ~/Code/Dotfiles/tmux/.tmux.conf
+
+# atom
+apm list --installed --bare > ~/Code/Dotfiles/atom/packages.list
