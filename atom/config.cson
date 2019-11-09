@@ -1,6 +1,10 @@
 "*":
   core:
     autoHideMenuBar: true
+    disabledPackages: [
+      "language-gfm"
+      "markdown-preview"
+    ]
     telemetryConsent: "no"
     themes: [
       "one-dark-ui"
@@ -8,6 +12,11 @@
     ]
   "exception-reporting":
     userId: "8ceb2eb4-83b1-4797-864e-f5b05bf38582"
+  jekyll:
+    serverPort: 4000
+  "markdown-preview-plus":
+    pandocConfig:
+      pandocMarkdownFlavor: "markdown-raw_tex+tex_math_single_backslash+yaml_metadata_block"
   "native-ui":
     ui:
       seamlessScrollbars: true

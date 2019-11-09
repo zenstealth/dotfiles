@@ -51,3 +51,4 @@ alias gcl='git clone'
 # alias jbuild="jekyll build"
 # alias jserve="jekyll serve --watch"
 # alias jpub="./publish.sh"
+alias jserve="docker-compose up"
