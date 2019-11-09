@@ -1,4 +1,4 @@
-Adith's Dot Files
+Ada Prime Dotfiles
 ================
 
-Dotfiles are tiny little files that store configuration settings on how you personalize your system. The ones here for example, are mine.
+OwO what's this??
