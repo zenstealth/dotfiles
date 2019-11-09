@@ -19,7 +19,6 @@ alias ada="xdg-open https://adaprime.xyz"
 alias github="xdg-open https://github.com/"
 
 # SSH
-
 # Example: alias foo="ssh bar"
 # Tunnels: alias tn='ssh server -p 22 -N -D localhost:8080'
 
@@ -27,9 +26,26 @@ alias github="xdg-open https://github.com/"
 alias zconf="atom ~/.zshrc"
 alias zupgrade="upgrade_oh_my_zsh"
 alias aconf="atom ~/.oh-my-zsh/custom/aliases.zsh"
+alias tconf="atom ~/.tmux.conf"
 alias dot="cd ~/Code/Dotfiles/"
 alias dotconf="atom ~/Code/Dotfiles/"
 alias dotback="dot && ./dotfiles-backup.sh"
+
+# Git
+alias ga='git add'
+alias gpu='git push'
+alias gl='git log'
+alias glg='git lg'
+alias gs='git status'
+alias gd='git diff'
+alias gcm='git commit -m'
+alias gcma='git commit -am'
+alias gb='git branch'
+alias gc='git checkout'
+alias gra='git remote add'
+alias grr='git remote rm'
+alias gpul='git pull'
+alias gcl='git clone'
 
 # Jekyll Shortcuts
 # alias jbuild="jekyll build"
