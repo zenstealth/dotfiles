@@ -1,0 +1,15 @@
+"*":
+  core:
+    autoHideMenuBar: true
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "atom-black-syntax"
+    ]
+  "exception-reporting":
+    userId: "8ceb2eb4-83b1-4797-864e-f5b05bf38582"
+  "native-ui":
+    ui:
+      seamlessScrollbars: true
+  welcome:
+    showOnStartup: false

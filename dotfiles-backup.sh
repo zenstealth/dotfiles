@@ -16,4 +16,9 @@ cp -r ~/.vim/* ~/Code/Dotfiles/vim/.vim/
 cp ~/.tmux.conf ~/Code/Dotfiles/tmux/.tmux.conf
 
 # atom
+cp ~/.atom/config.cson ~/Code/Dotfiles/atom/config.cson
+cp ~/.atom/keymap.cson ~/Code/Dotfiles/atom/keymap.cson
+cp ~/.atom/snippets.cson ~/Code/Dotfiles/atom/snippets.cson
+cp ~/.atom/styles.less ~/Code/Dotfiles/atom/styles.less
 apm list --installed --bare > ~/Code/Dotfiles/atom/packages.list
+# apm install 'cat packages.list' -> to reinstall packages
