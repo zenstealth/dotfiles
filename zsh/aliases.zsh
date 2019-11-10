@@ -35,6 +35,7 @@ alias dotback="dot && ./dotfiles-backup.sh"
 alias ga='git add'
 alias gpu='git push'
 alias gl='git log'
+alias glone='git log --oneline'
 alias glg='git lg'
 alias gs='git status'
 alias gd='git diff'
@@ -51,4 +52,4 @@ alias gcl='git clone'
 # alias jbuild="jekyll build"
 # alias jserve="jekyll serve --watch"
 # alias jpub="./publish.sh"
-alias jserve="docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -o 0.0.0.0:4000:4000 jekyll/jekyll jekyll serve"
+alias jserve="docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p 0.0.0.0:4000:4000 jekyll/jekyll jekyll serve"
