@@ -4,6 +4,7 @@
     disabledPackages: [
       "language-gfm"
       "markdown-preview"
+      "jekyll"
     ]
     telemetryConsent: "no"
     themes: [

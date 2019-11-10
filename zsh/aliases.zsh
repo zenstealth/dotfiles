@@ -4,7 +4,6 @@ alias home="cd ~" #Goes to home directory
 alias desk="cd ~/Desktop" #Goes to the Desktop
 alias down="cd ~/Downloads" #Goes to the Downloads folder
 alias code="cd ~/Code" #Goes to the Code folder
-alias web="cd ~/Code/Websites" #Goes to the Websites folder
 alias .ssh="cd ~/.ssh" #Goes to the SSH folder
 
 # Utilities Shortcuts
@@ -15,7 +14,8 @@ alias ip="curl icanhazip.com" #Gets Public IP
 alias http="python -m SimpleHTTPServer" #Starts a simple HTTP server in current directory at http://localhost:8000/
 
 # Website Shortcuts
-alias ada="xdg-open https://adaprime.xyz"
+alias web="cd ~/Code/Websites" #Goes to the Websites folder
+alias ada="cd ~/Code/Websites/adaprime.github.io"
 alias github="xdg-open https://github.com/"
 
 # SSH
@@ -44,11 +44,11 @@ alias gb='git branch'
 alias gc='git checkout'
 alias gra='git remote add'
 alias grr='git remote rm'
-alias gpul='git pull'
+alias gpull='git pull'
 alias gcl='git clone'
 
 # Jekyll Shortcuts
 # alias jbuild="jekyll build"
 # alias jserve="jekyll serve --watch"
 # alias jpub="./publish.sh"
-alias jserve="docker-compose up"
+alias jserve="docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -o 0.0.0.0:4000:4000 jekyll/jekyll jekyll serve"
