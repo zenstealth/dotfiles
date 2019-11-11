@@ -72,8 +72,16 @@ sudo gdebi ~/discord.deb
 sudo add-apt-repository ppa:dawidd0811/neofetch
 # update repos
 sudo apt update
-# install package
+# install neofetch
 sudo apt install neofetch
+
+# Install Guake latest
+# add ppa
+sudo add-apt-repository ppa:linuxuprising/guake
+# update repos
+sudo apt Update
+# install guake
+sudo apt install guake
 
 # Git setup
 printf "Enter your name for git commits: \n"
