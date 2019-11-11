@@ -22,3 +22,8 @@ cp ~/.atom/snippets.cson ~/Code/Dotfiles/atom/snippets.cson
 cp ~/.atom/styles.less ~/Code/Dotfiles/atom/styles.less
 apm list --installed --bare > ~/Code/Dotfiles/atom/packages.list
 # apm install 'cat packages.list' -> to reinstall packages
+
+# dconf (Guake configs and other stuff)
+dconf dump / > ~/Code/Dotfiles/dconf/t440p.dconf
+# to load
+# dconf load / > ~/Code/Dotfiles/dconf/t440p.dconf
