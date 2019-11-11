@@ -2,8 +2,7 @@
 sudo apt update && sudo apt-get dist-upgrade
 
 # Uninstall unnecessary programs
-sudo apt purge epiphany-browser epiphany-browser-data #browser
-sudo apt purge pantheon-mail
+sudo apt purge epiphany-browser epiphany-browser-data pantheon-mail
 
 # Properties Commons (to install elementary tweaks)
 sudo apt install software-properties-common
@@ -49,13 +48,9 @@ sudo apt install -f
 rm google-chrome*.deb
 
 # Install Spotify
-## 1. Add the Spotify repository signing key to be able to verify downloaded packages
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
-## 2. Add the Spotify repository
 echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
-## 3. Update list of available packages
 sudo apt update
-## 4. Install Spotify
 sudo apt install spotify-client
 
 # Install Atom
@@ -68,20 +63,20 @@ wget -O ~/discord.deb "https://discordapp.com/api/download?platform=linux&format
 sudo gdebi ~/discord.deb
 
 # Install neofetch
-# add ppa
 sudo add-apt-repository ppa:dawidd0811/neofetch
-# update repos
 sudo apt update
-# install neofetch
 sudo apt install neofetch
 
 # Install Guake latest
 # add ppa
 sudo add-apt-repository ppa:linuxuprising/guake
-# update repos
-sudo apt Update
-# install guake
+sudo apt update
 sudo apt install guake
+
+# Install cool-retro-term
+sudo add-apt-repository ppa:vantuz/cool-retro-term
+sudo apt install cool-retro-term
+
 
 # Git setup
 printf "Enter your name for git commits: \n"
@@ -113,7 +108,7 @@ git clone https://github.com/adaprime/dotfiles.git ~/Code/Dotfiles/
 rm ~/.aliases
 rm ~/.zshrc
 # create soft links
-ln -s /home/$USER/Code/Dotfiles/.aliases /home/$USER/.aliases
+ln -s /home/$USER/Code/Dotfiles/zsh/aliases.zsh /home/$USER/.oh-my-zsh/custom/aliases.zsh
 ln -s /home/$USER/Code/Dotfiles/.zshrc /home/$USER/.zshrc
 source ~/.zshrc
 source ~/.aliases
