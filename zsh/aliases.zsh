@@ -12,6 +12,7 @@ alias h="history" #History Shortcut
 alias hc="rm -f ~/.zsh_history" #Clears history
 alias ip="curl icanhazip.com" #Gets Public IP
 alias http="python -m SimpleHTTPServer" #Starts a simple HTTP server in current directory at http://localhost:8000/
+alias up!="sudo apt update && sudo apt upgrade" #Bruh
 
 # Website Shortcuts
 alias web="cd ~/Code/Websites" #Goes to the Websites folder
