@@ -216,9 +216,13 @@ columns-order=[0, 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 2
 sort-order=0
 sort-col=15
 
+[org/gnome/nm-applet/eap/bc596cd2-d2cf-4847-81ee-35840b2c29bc]
+ignore-phase2-ca-cert=false
+ignore-ca-cert=false
+
 [org/gtk/settings/file-chooser]
 sort-column='name'
-sidebar-width=166
+sidebar-width=167
 window-position=(174, 45)
 show-size-column=true
 show-hidden=false
@@ -333,7 +337,7 @@ selected-day='2019-306'
 location-enabled=false
 
 [io/elementary/desktop/wingpanel/bluetooth]
-bluetooth-enabled=false
+bluetooth-enabled=true
 
 [io/elementary/desktop/wingpanel/power]
 show-percentage=true
@@ -360,9 +364,9 @@ sidebar-cat-personal-expander=true
 sidebar-width=196
 active-tab-position=0
 sidebar-cat-devices-expander=false
-window-position=(0, 30)
-window-state='maximized'
-window-size=(1366, 691)
+window-position=(170, 91)
+window-state='normal'
+window-size=(1024, 506)
 sidebar-cat-network-expander=false
 date-format='iso'
 default-viewmode='icon'
@@ -374,7 +378,7 @@ single-click=false
 zoom-level='small'
 
 [io/elementary/files/file-chooser]
-last-folder-uri='file:///home/ada/Code/Websites/evelyndooley.com/images'
+last-folder-uri='file:///home/ada/Downloads'
 
 [io/elementary/files/icon-view]
 zoom-level='large'
@@ -419,10 +423,12 @@ last-opened-path='/home/ada'
 opened-folders=['/home/ada/Code/Websites/adaprime.github.io']
 
 [io/elementary/code/saved-state]
-window-x=251
+window-x=683
+window-y=30
+window-height=693
 window-state='Normal'
 hp1-size=180
-window-y=58
+window-width=683
 
 [io/elementary/code/settings]
 opened-files-view2=@as []
@@ -431,14 +437,14 @@ style-scheme='solarized-dark'
 prefer-dark-style=true
 use-system-font=false
 font='Roboto Mono 9'
-focused-document-view1='file:///home/ada/Downloads/Frontier2720.txt'
-opened-files-view1=['file:///home/ada/Downloads/Frontier2720.txt']
+focused-document-view1='file:///home/ada/.local/share/io.elementary.code/unsaved/Text%20file%20from%202019-11-11%2005:04:22:109455'
+opened-files-view1=['file:///home/ada/.local/share/io.elementary.code/unsaved/Text%20file%20from%202019-11-11%2005:04:22:109455']
 
 [net/launchpad/plank/docks/dock1]
 icon-size=48
 show-dock-item=false
 position='bottom'
-dock-items=['io.elementary.files.dockitem', 'google-chrome.dockitem', 'chrome-kmhopmchchfpfdcdjodmpfaaphdclmlj-Default.dockitem', 'chrome-hcfcmgpnmpinpidjdgejehjchlbglpde-Default.dockitem', 'chrome-kjbdgfilnfhdoflbpgamdcdgpehopbep-Default.dockitem', 'chrome-ncmjhecbjeaamljdfahankockkkdmedg-Default.dockitem', 'chrome-albjknpbljlpmmpfjicdohagjcifagdi-Default.dockitem', 'chrome-hoekmcfndbjmjaogiaanlnkonlhlmcgn-Default.dockitem', 'caprine.dockitem', 'discord.dockitem', 'spotify.dockitem', 'chrome-aifplmgcfaoelidmnmjblimekecbmndj-Default.dockitem', 'steam.dockitem', 'atom.dockitem', 'github-desktop.dockitem', 'io.elementary.switchboard.dockitem', 'Downloads.dockitem']
+dock-items=['io.elementary.files.dockitem', 'google-chrome.dockitem', 'chrome-kmhopmchchfpfdcdjodmpfaaphdclmlj-Default.dockitem', 'chrome-hcfcmgpnmpinpidjdgejehjchlbglpde-Default.dockitem', 'chrome-kjbdgfilnfhdoflbpgamdcdgpehopbep-Default.dockitem', 'chrome-ncmjhecbjeaamljdfahankockkkdmedg-Default.dockitem', 'chrome-albjknpbljlpmmpfjicdohagjcifagdi-Default.dockitem', 'chrome-hoekmcfndbjmjaogiaanlnkonlhlmcgn-Default.dockitem', 'caprine.dockitem', 'discord.dockitem', 'spotify.dockitem', 'chrome-aifplmgcfaoelidmnmjblimekecbmndj-Default.dockitem', 'steam.dockitem', 'atom.dockitem', 'github-desktop.dockitem', 'io.elementary.switchboard.dockitem']
 unhide-delay=0
 items-alignment='center'
 theme='dark-mode-transparent'

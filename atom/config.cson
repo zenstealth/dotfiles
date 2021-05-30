@@ -1,6 +1,5 @@
 "*":
   core:
-    autoHideMenuBar: true
     disabledPackages: [
       "language-gfm"
       "markdown-preview"
